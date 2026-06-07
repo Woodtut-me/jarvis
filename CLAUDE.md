@@ -190,6 +190,35 @@
 
 ---
 
+## Моя команда — скиллы и плагины
+
+### Superpowers (пакет скиллов)
+
+Установлен в `.claude/skills/`. Скиллы — это `.md`-инструкции, которые агент обязан применять при подходящих задачах.
+
+| Скилл | Когда применять |
+|---|---|
+| `using-superpowers` | Старт каждой сессии — находит нужный скилл |
+| `brainstorming` | Перед любой творческой задачей / новой фичей |
+| `writing-plans` | Многошаговая задача — сначала план |
+| `executing-plans` | Выполнение готового плана |
+| `frontend-design` | UI/UX компоненты, страницы, лендинги |
+| `fullstack-developer` | React, Node.js, API, базы данных |
+| `content-creator` | Тексты, посты, маркетинговые материалы |
+| `discovery-interview` | Превратить расплывчатую идею в чёткий спек |
+| `systematic-debugging` | Любой баг — сначала этот скилл |
+| `test-driven-development` | TDD перед реализацией |
+| `verification-before-completion` | Проверка перед словами «готово» |
+| `requesting-code-review` | Ревью перед мержем |
+| `receiving-code-review` | Работа с полученным ревью |
+| `finishing-a-development-branch` | Завершение ветки, интеграция |
+| `using-git-worktrees` | Изолированная ветка для новой фичи |
+| `subagent-driven-development` | Разработка через подагентов |
+| `dispatching-parallel-agents` | 2+ независимых задачи параллельно |
+| `writing-skills` | Создание и редактирование скиллов |
+
+---
+
 ## Что НЕ удалять без явной просьбы
 
 - `SOUL.md`
